@@ -1,0 +1,21 @@
+.data-item {
+	display: block;
+	padding: 15px;
+	height: 90px;
+}
+.data-text {
+	font-size: 14px;
+	font-weight: 400;
+}
+.data-desc {
+	font-size: 22px;
+	font-weight: 400;
+}
+.survey-data button {
+	margin-left: 25px;
+	height: 90px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 400;
+	color: gray;
+}

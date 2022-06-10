@@ -1,0 +1,14 @@
+table {
+	font-size: 15px;
+	font-weight: 500;
+}
+th:last-child {
+	color: var(--blue);
+}
+td:last-child {
+	color: var(--blue);
+}
+th,
+td {
+	color: gray;
+}

@@ -1,0 +1,12 @@
+.footer {
+	height: 95px;
+	background-color: var(--darkblue);
+	padding: 0 100px;
+	color: white;
+}
+.footer-right img {
+	padding-left: 20px;
+}
+.footer-right img:hover {
+	cursor: pointer;
+}

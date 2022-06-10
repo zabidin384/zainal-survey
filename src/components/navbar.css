@@ -1,0 +1,159 @@
+.navbar {
+	height: 120px;
+	width: 100%;
+	background-color: white;
+	padding-top: 0;
+}
+.navbar ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar ul li {
+	padding: 0 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 120px;
+}
+.navbar ul a {
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 14px;
+	text-align: center;
+}
+
+/* navbar-left */
+.navbar-left ul a {
+	color: var(--orange);
+}
+.surver-portal-wrapper {
+	width: 62px;
+	height: 62px;
+	border-radius: 50%;
+}
+.survey-portal-wrapper:hover {
+	box-shadow: 0 4px 8px 0 rgba(255, 143, 12, 0.8), 0 6px 20px 0 rgba(255, 143, 12, 0.8);
+}
+.navbar-left ul li:hover {
+	cursor: pointer;
+	background-color: AntiqueWhite;
+	border-bottom: 5px solid var(--orange);
+}
+#survey-portal:hover {
+	cursor: text;
+	background: white;
+	border-bottom: none;
+}
+[title="Survey Portal"]:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	cursor: pointer;
+}
+
+/* navbar-right */
+[alt="circle"] {
+	position: absolute;
+	top: 45px;
+	right: 12px;
+}
+.navbar-user {
+	font-size: 20px;
+	font-weight: 600;
+	color: #a29f9d;
+}
+.navbar-right button {
+	font-size: 18px;
+	width: 225px;
+	height: 57px;
+	background: linear-gradient(to right, #2541ae, #4d8dca);
+}
+.navbar-right button:hover {
+	background: linear-gradient(to right, #4d8dca, #2541ae);
+}
+
+/* icon-size */
+[alt="survey-portal"] {
+	width: 35px;
+	height: 35px;
+	-ms-transform: rotate(-135deg);
+	transform: rotate(-135deg);
+	margin-top: 12px;
+}
+[alt="overview"] {
+	width: 42px;
+	height: 33px;
+}
+[alt="kuisioner"] {
+	width: 34px;
+	height: 34px;
+}
+[alt="koleksi-data"] {
+	width: 41px;
+	height: 40px;
+}
+[alt="laporan"] {
+	width: 46px;
+	height: 34px;
+}
+[alt="notification"] {
+	width: 28px;
+	height: 28px;
+}
+.notif:hover {
+	cursor: pointer;
+}
+
+/* Dropdown Menu */
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	z-index: 1;
+	background-color: white;
+	font-size: 18px;
+	font-weight: 400;
+}
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	border: 1px solid lightgray;
+}
+.dropdown-content a:hover {
+	color: var(--orange);
+}
+.dropdown:hover {
+	cursor: pointer;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/* Lamp */
+[alt="lamp"] {
+	position: absolute;
+	top: 15px;
+	left: 20px;
+}
+.lamp {
+	border-radius: 15px;
+	height: 75px;
+	width: 75px;
+	background-color: white;
+	position: absolute;
+	top: 130px;
+	right: 75px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.lamp:hover {
+	background-color: LemonChiffon;
+	box-shadow: none;
+	cursor: pointer;
+}
